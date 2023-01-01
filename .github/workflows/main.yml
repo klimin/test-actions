@@ -2,7 +2,7 @@ name: Test
 on: workflow_dispatch
 jobs:
   print:
-    runs-on: macos-10.15
+    runs-on: windows-latest
     steps:
       - name: Print to console
         run: echo Hello Actions!
