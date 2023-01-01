@@ -2,7 +2,7 @@ name: Test
 on: workflow_dispatch
 jobs:
   print:
-    runs-on: windows-latest
+    runs-on: self-hosted
     steps:
       - name: Print to console
         run: echo Hello Ations!
