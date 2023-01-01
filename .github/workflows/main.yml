@@ -5,8 +5,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Print to console
-        run: echo Hello Ations!
-      - name: Print another line
-        run: |
-          echo Hello 1
-          echo Hello 2
+        run: echo Hello
