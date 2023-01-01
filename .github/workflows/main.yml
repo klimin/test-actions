@@ -2,7 +2,9 @@ name: Test
 on: push
 jobs:
   print:
-    runs-on: self-hosted
+    runs-on: 
+      - self-hosted
+      - macOS
     steps:
       - name: Print to console
         run: echo Hello
