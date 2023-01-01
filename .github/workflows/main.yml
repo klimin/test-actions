@@ -5,4 +5,8 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Print to console
-        run: echo Hello Actions!
+        run: echo Hello Ations!
+      - name: Print another line
+        run: |
+          echo Hello 1
+          echo Hello 2
