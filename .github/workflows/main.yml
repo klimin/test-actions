@@ -2,9 +2,7 @@ name: Test
 on: push
 jobs:
   print:
-    runs-on: 
-      - self-hosted
-      - macOS
+    runs-on: ubuntu-latest
     steps:
       - name: Print to console
         run: echo Hello
